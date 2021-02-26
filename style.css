@@ -1,0 +1,367 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    font-family: sans-serif;
+}
+
+#banner {
+    background: url(images/banner.jpg); 
+    background-size: cover;
+    background-position: center; 
+    height: 100vh; 
+    z-index: -5;
+}
+
+#filler {
+    background:rgba(230, 177, 214, 0.1);
+}
+
+.logo {
+    width: 140px; 
+    position: absolute; 
+    top: 4%; 
+    left: 10%;
+}
+
+/*
+.banner-text {
+    text-align: center; 
+    color: hsla(0, 1%, 13%, 0.582);
+    padding-top: 250px; 
+    font-weight: 200;
+    /*font-family: 'Marck Script', cursive; 
+}
+
+.banner-text h1{
+    font-size: 100px;
+    margin-top: 80px;
+    font-weight: 100;
+    font-weight: bold;
+
+}
+
+.banner-text p {
+    font-size: 20px; 
+
+
+}
+*/
+
+
+
+.navbar{
+    position: absolute; 
+    width: 100%; 
+    z-index: 999; 
+    font-size: 20px;
+    
+}
+
+.navbar {
+    *position: relative !important;
+}
+
+
+.carousel-item {
+    height: 100vh;
+}
+
+
+
+
+
+
+
+body {
+    font-family: poppins; 
+}
+
+/*.container{
+    width: 300vw; 
+    height: 100vh;
+    background: #42455a;
+}
+*/
+
+/*
+#carouselExampleInterval {
+    height: 100%;
+}
+*/
+
+/*
+#navbar {
+    background: #797d97;
+    height: 70px;
+}
+*/
+
+.carousel-item {
+    height: 100vh; 
+    min-height: 500px; 
+    background: no-repeat center center scroll; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-szie: cover; 
+    background-size: cover;
+}
+
+
+.carousel .carousel-inner .carousel-indicators{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    object-fit: cover;
+    padding-bottom: 0%;
+}
+
+.carousel-control-prev .carousel-control-next {
+    position: absolute;
+}
+
+
+.carousel {
+    margin-bottom: 0 !important;
+}
+
+.carousel-caption {
+    position: absolute; 
+    top: 40%; 
+    text-transform: uppercase; 
+    width: 100%; 
+    right: 0; 
+    left: 0;
+
+}
+
+.carousel-caption h1 {
+    font-size: 3.8rem;
+    font-weight: 700; 
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .8rem black; 
+    padding-bottom: .1rem; 
+}
+
+.carousel-caption h3 {
+    font-size: 2rem; 
+    text-shadow: .1rem .1rem .5rem black; 
+    padding-bottom: 1.6rem;
+}
+
+
+/* --------------------Subpage 1 ------------------------ */
+
+#subpage1-body {
+    position: static;
+    background: #bfb8eb;
+    height: 100vh;
+}
+
+.bg-1 {
+    background-color: #185246; /* Green */
+    color: #ffffff;
+}
+
+#flower-div {
+    margin-top: 70px;
+    padding: 50px;
+}
+
+
+.bg-2 {
+    background-color: #474e5d; /* Dark Blue */ 
+    color: #ffffff
+}
+
+#bg-2-text-div {
+    padding: 100px;
+}
+
+.bg-4 {
+    background-color:rgba(14, 10, 14, 0.562);
+    color: white; 
+}
+
+#bg-4-text-div {
+    padding: 100px; 
+}
+
+
+.bg-3 {
+    background-color: #e9b25f; /* Orange */ 
+    color: #555555;
+}
+
+
+#menu-div {
+    padding: 50px;
+}
+
+
+
+#menu {
+    padding: 50px;
+}
+
+
+
+
+
+
+/* ---------------- Subpage 2 -------------------------- */
+
+
+.bg-201 {
+    background-color:rgba(231, 140, 231, 0.397);
+    color: #474747;
+}
+
+#history {
+    margin-top: 70px;
+    padding: 50px; 
+}
+
+#grid {
+    padding: 40px;
+    background-color: rgba(173, 124, 196, 0.432);
+}
+
+a, a:hover {
+    color: #212529
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.block {
+    height: 350px;
+    background: rgba(142, 77, 180, 0.767);
+    margin-bottom: 30px;
+}
+
+.label {
+    font-size: .85rem; 
+    font-weight: bold;
+}
+
+
+
+#scroll-box {
+    background: #eecece;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    height: 400px;
+    padding: 40px; 
+    overflow-y: scroll;
+}
+
+
+#amenities {
+    margin-top: 20px;
+    padding: 50px; 
+    background:rgba(160, 72, 131, 0.527);
+    color: white;
+}
+
+
+
+
+
+
+#scroll-box-2 {
+    position: relative;
+    z-index: 999;
+    margin: 70px;
+    border: 2px solid black; 
+    width: 300px; 
+    height: 500px;
+    overflow: scroll;
+    padding: 10px;
+    background: rgb(208, 233, 202);
+    color: black;
+}
+
+/*
+#amenities {
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------- Subpage 3 -------------- */
+
+#email-form {
+    padding: 300px;
+    height: 150px;
+    position: center; 
+    background-image: url(images/form_image.jpg);
+    left: 100px;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+#form-submit-button {
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------- Subpage 4 ----------------- */
+
+
+
+
+
+
+
+
+
+
+/*
+#form-div {
+    padding: 300px; 
+    height: 150px;
+}
+
+#form {
+    padding: 300px;
+    height: 150px;
+}
+
+
+
+#email-submit-btn {
+    position: relative;
+    left: 370px;
+    bottom: 400px;
+
+}
+*/
+
